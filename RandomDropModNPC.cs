@@ -10,7 +10,7 @@ namespace RandomDropMod
         private static Random random = new Random();
         public override bool PreKill(NPC npc)
         {
-            if (Main.rand.NextDouble() < 0.8)
+            if (random.Next(100) > ModContent.GetInstance<RandomDropModConfig>().DropProbability)
             {
                 return base.PreKill(npc);
             }
