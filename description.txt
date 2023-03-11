@@ -1,0 +1,3 @@
+RandomDropMod is a mod that adds a mechanism that allows NPCs to drop random items after being killed.
+The number of items dropped is determined by the maximum stack size of the item.
+For example, unStackable items will drop 1 item, while those with a stack size of 999 will drop 30-60 items.

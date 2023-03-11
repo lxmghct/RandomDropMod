@@ -1,0 +1,3 @@
+displayName = RandomDrop
+author = lxm
+version = 0.1
